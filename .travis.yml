@@ -6,7 +6,7 @@ dist: trusty
 language: java
 sudo: false # faster builds
 jdk:
-  - oraclejdk11
+  - openjdk8
   - openjdk11
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t 46fb54b0-d546-4ece-ac7b-de94404711e7
